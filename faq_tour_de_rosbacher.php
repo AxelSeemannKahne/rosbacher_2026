@@ -65,7 +65,7 @@ include('navigation_subpages.inc.php')
                             ),
                             array(
                                 "question" => "Wie nehme ich an der Tour de Rosbacher teil?",
-                                "answer" => "Ganz einfach: Folge dem <strong>Rosbacher-Profil auf komoot</strong> und fahre Touren mit dem Fahrrad, die über komoot <strong>per GPS</strong> getrackt wurden. Wichtig: Nur getrackte Touren zählen – manuell hinzugefügte oder importierte GPX-Dateien werden nicht gewertet. Die Teilnahme erfolgt automatisch, sobald du Rosbacher folgst und deine Touren mit Rosbacher <strong>taggst/verlinkst</strong>."
+                                "answer" => "Ganz einfach: Folge dem <strong>Rosbacher-Profil auf komoot</strong> und fahre Touren mit dem Fahrrad, die über komoot <strong>per GPS</strong> getrackt wurden. <strong>Wichtig:</strong> Nur getrackte Touren zählen – manuell hinzugefügte oder importierte GPX-Dateien werden nicht gewertet. Die Teilnahme erfolgt automatisch, sobald du Rosbacher folgst und deine Touren mit Rosbacher <strong>taggst/verlinkst</strong>."
                             ),
                             array(
                                 "question" => "Was brauche ich zur Teilnahme?",
@@ -77,31 +77,31 @@ include('navigation_subpages.inc.php')
                             ),
                             array(
                                 "question" => "Wie kann ich meine Teilnahme beenden?",
-                                "answer" => "Kein Problem – du kannst jederzeit aussteigen, indem du <strong>Rosbacher auf komoot wieder entfolgst</strong>."
+                                "answer" => "Du kannst jederzeit aussteigen, indem du <strong>Rosbacher auf komoot wieder entfolgst</strong>."
                             ),
                             array(
                                 "question" => "Was kann ich gewinnen?",
-                                "answer" => "Es warten gleich drei starke Preise auf die fleißigsten Radler:innen:<br>🥇<strong>1. Platz</strong>: ein hochwertiges <strong> Modell Aerfast.4 Red Edition Sram Red D1 AXS 1x12, Zeitjäger Laufradsatz</strong><br>🥈<strong>2. Platz</strong>: ein <strong>Storck-Gutschein im Wert von 2.000 € (brutto)</strong><br>🥉<strong>3. Platz</strong>: ein <strong>Storck-Gutschein im Wert von 1.500 € (brutto)</strong>\nDie Gewinner:innen werden nach Ende des Aktionszeitraums ermittelt."
+                                "answer" => "Es warten gleich 3 starke Preise auf die fleißigsten Radler:innen:<br>🥇<strong>1. Platz</strong>: Ein hochwertiges <strong> Modell Aerfast.4 Red Edition Sram Red D1 AXS 1x12, Zeitjäger Laufradsatz</strong><br>🥈<strong>2. Platz</strong>: ein <strong>Storck-Gutschein im Wert von 2.000 € (brutto)</strong><br>🥉<strong>3. Platz</strong>: ein <strong>Storck-Gutschein im Wert von 1.500 € (brutto)</strong><br>Die Gewinner:innen werden nach Ende des Aktionszeitraums ermittelt."
                             ),
                             array(
                                 "question" => "Was passiert bei einem Gleichstand?",
-                                "answer" => "Sollten zwei oder mehr Teilnehmer:innen am Ende exakt dieselbe Kilometeranzahl haben, entscheidet <strong>das Los</strong>."
+                                "answer" => "Sollten 2 oder mehr Teilnehmer:innen am Ende exakt dieselbe Kilometeranzahl haben, entscheidet <strong>das Los</strong>."
                             ),
                             array(
                                 "question" => "Wie erfahre ich, ob ich gewonnen habe?",
-                                "answer" => "Die Gewinner:innen werden <strong>per E-Mail</strong> benachrichtigt. Der/die Gewinner:in des Fahrrads muss dann persönliche Maße wie Körpergröße, Gewicht und Schrittlänge angeben, damit das Bike individuell angefertigt werden kann."
+                                "answer" => "Die Gewinner:innen werden <strong>per E-Mail</strong> benachrichtigt. Der/die Gewinner:in des Fahrrads muss dann persönliche Daten wie Körpergröße, Gewicht und Schrittlänge übermitteln, damit das Bike individuell angefertigt werden kann."
                             ),
                             array(
                                 "question" => "Wie bekomme ich mein Fahrrad?",
-                                "answer" => "Das Fahrrad wird entweder <strong>persönlich in einem der fünf Stores der Storck Bicycle GmbH in Idstein, Düsseldorf, München, Wertheim oder Hamburg</strong> übergeben oder auf Wunsch <strong>frei Haus innerhalb Deutschlands</strong> verschickt. Achtung: <strong>Laufräder müssen selbst montiert</strong> und <strong>Bremssicherungen entfernt</strong> werden – eine Anleitung liegt bei."
+                                "answer" => "Das Fahrrad wird entweder <strong>persönlich in einem der 5 Stores der Storck Bicycle GmbH in Idstein, Düsseldorf, München, Wertheim oder Hamburg</strong> übergeben oder auf Wunsch <strong>frei Haus innerhalb Deutschlands</strong> verschickt. <strong>Achtung: Laufräder müssen selbst montiert</strong> und <strong>Bremssicherungen entfernt</strong> werden – eine Anleitung liegt bei."
                             ),
                             array(
                                 "question" => "Falls ich ein Bike gewonnen habe: Wie lange dauert es, bis ich es geliefert bekomme?",
-                                "answer" => "Die Fahrräder werden individuell für die Gewinner:innen angefertigt. Die Produktionsdauer beträgt in der Regel zwischen 8 und 12 Wochen. du wirst per E-Mail benachrichtigt, sobald dein Fahrrad fertiggestellt ist. Sollte es zu Verzögerungen kommen, erhältst du ebenfalls eine Benachrichtigung per E-Mail."
+                                "answer" => "Die Fahrräder werden individuell für die Gewinner:innen angefertigt. Die Produktionsdauer beträgt in der Regel <strong>zwischen 8 und 12 Wochen</strong>. Du wirst per E-Mail benachrichtigt, sobald dein Fahrrad fertiggestellt ist. Sollte es zu Verzögerungen kommen, erhältst du ebenfalls eine Benachrichtigung per E-Mail."
                             ),
                             array(
                                 "question" => "Muss ich das Fahrrad versichern?",
-                                "answer" => "Wenn du möchtest, kannst du das natürlich machen. du bekommst zusammen mit dem Bike eine <strong>offizielle Gewinnbescheinigung</strong>, mit der du es zum Beispiel bei deiner Versicherung eintragen kannst. Die Versicherung liegt aber in deiner Verantwortung."
+                                "answer" => "Wenn du möchtest, kannst du das natürlich machen. Du bekommst zusammen mit dem Bike eine <strong>offizielle Gewinnbescheinigung</strong>, mit der du es zum Beispiel bei deiner Versicherung eintragen kannst. Die Versicherung liegt aber in deiner Verantwortung."
                             ),
                             array(
                                 "question" => "Wie erhalte ich den Gutschein?",

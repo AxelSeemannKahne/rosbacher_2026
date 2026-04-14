@@ -67,10 +67,10 @@ include('navigation_subpages.inc.php')
                         ],
                         [
                             "question" => "Was muss ich kaufen, um teilzunehmen?",
-                            "answer" => "Für die Teilnahme musst du mindestens einen Kasten oder zwei Sechserpacks Mineralwasser der Marke „Rosbacher“ oder der Marke „Rosbacher“ mit Zitronengeschmack oder „Rosbacher“ mit Limettengeschmack. <strong>Achtung:</strong> Schorlen zählen <strong>nicht</strong> zur Aktion!"                        ],
+                            "answer" => "Für die Teilnahme musst du mindestens einen Kasten oder zwei Sechserpacks Mineralwasser der Marke „Rosbacher“ oder der Marke „Rosbacher“ mit Zitronengeschmack oder „Rosbacher“ mit Limettengeschmack kaufen. <strong>Achtung:</strong> Schorlen zählen <strong>nicht</strong> zur Aktion!"                        ],
                         [
                             "question" => "Wie kann ich an dem Gewinnspiel teilnehmen?",
-                            "answer" => "Einfach auf <a href='https://www.rosbacher-aktion' target='_blank'>www.rosbacher-aktion.de</a> gehen, das Teilnahmeformular ausfüllen, den Kassenbon hochladen (als .jpeg, .png oder .pdf, max. 10 MB), Teilnahmebedingungen akzeptieren und abschicken. Wichtig: Der Bon muss leserlich sein (mit Kaufdatum, Bon-Nummer, Produkt, Kaufpreis usw.)."
+                            "answer" => "Einfach auf <a href='/'>www.rosbacher-aktion.de</a> gehen, das Teilnahmeformular ausfüllen, den Kassenbon hochladen (als .jpeg, .png oder .pdf, max. 10 MB), Teilnahmebedingungen akzeptieren und abschicken. <strong>Wichtig:</strong> Der Bon muss leserlich sein (mit Kaufdatum, Bon-Nummer, Produkt, Kaufpreis usw.)."
                         ],
                         [
                             "question" => "Kann ich mehrfach teilnehmen?",
@@ -82,19 +82,19 @@ include('navigation_subpages.inc.php')
                         ],
                         [
                             "question" => "Wie erfahre ich, ob meine Teilnahme gültig ist?",
-                            "answer" => "Nach dem Absenden bekommst du eine Bestätigungsmail. Wenn dein Bon gültig ist, wirst du separat darüber informiert. Bei einem fehlerhaften Upload bekommst du eine E-Mail mit der Info, was nicht gepasst hat. du hast insgesamt <strong>drei Versuche</strong>, einen gültigen Bon hochzuladen."
+                            "answer" => "Nach dem Absenden erhältst du zeitnah eine Bestätigungsmail. Wenn dein Kassenbon gültig ist, wirst du separat per E-Mail darüber informiert. Bei einem fehlerhaften Upload wirst du ebenfalls per E-Mail informiert. Du hast insgesamt drei Versuche, einen gültigen Kassenbon hochzuladen."
                         ],
                         [
                             "question" => "Wie erfahre ich, ob ich ein Fahrrad gewonnen habe?",
-                            "answer" => "Die Gewinner:innen werden <strong>per E-Mail</strong> benachrichtigt. Der/die Gewinner:in des Fahrrads muss dann persönliche Maße wie Körpergröße, Gewicht und Schrittlänge angeben, damit das Bike individuell angefertigt werden kann."
+                            "answer" => "Die Gewinner:innen werden <strong>per E-Mail</strong> benachrichtigt. Der/die Gewinner:in des Fahrrads muss dann persönliche Daten wie Körpergröße, Gewicht und Schrittlänge übermitteln, damit das Bike individuell angefertigt werden kann."
                         ],
                         [
                             "question" => "Falls ich ein Bike gewonnen habe: Wie lange dauert es, bis ich es geliefert bekomme?",
-                            "answer" => "Die Fahrräder werden individuell für die Gewinner:innen angefertigt. Die Produktionsdauer beträgt in der Regel zwischen 8 und 12 Wochen. du wirst per E-Mail benachrichtigt, sobald dein Fahrrad fertiggestellt ist. Sollte es zu Verzögerungen kommen, erhältst du ebenfalls eine Benachrichtigung per E-Mail."
+                            "answer" => "Die Fahrräder werden individuell für die Gewinner:innen angefertigt. Die Produktionsdauer beträgt in der Regel zwischen <strong>8 und 12 Wochen</strong>. Du wirst per E-Mail benachrichtigt, sobald dein Fahrrad fertiggestellt ist. Sollte es zu Verzögerungen kommen, erhältst du ebenfalls eine Benachrichtigung per E-Mail."
                         ],
                         [
                             "question" => "Wie läuft das mit dem komoot Gutschein ab?",
-                            "answer" => "Sobald deine Teilnahme geprüft und bestätigt ist, erhältst du den Gutschein-Code per E-Mail. Es gelten die <strong>AGB von komoot.</strong>"
+                            "answer" => "Sobald deine Teilnahme geprüft und bestätigt ist, erhältst du den Gutschein-Code per E-Mail. Es gelten die <a href='https://www.komoot.com/de-de/terms-of-service' target='_blank'>AGB von komoot.</a>"
                         ],
                         [
                             "question" => "Muss ich mein Fahrrad selbst zusammenbauen?",
@@ -102,11 +102,11 @@ include('navigation_subpages.inc.php')
                         ],
                         [
                             "question" => "Erhalte ich eine Gewinnbescheinigung?",
-                            "answer" => "Ja, du bekommst zusammen mit dem Fahrrad eine Gewinnbescheinigung, die bestätigt, dass du das Fahrrad in einem Gewinnspiel gewonnen hast und jetzt der Eigentümer bist. Die Bescheinigung kannst du z.B. bei einer Versicherung als Nachweis einreichen, falls du das Fahrrad versichern möchtest."
+                            "answer" => "Ja, du bekommst zusammen mit dem Fahrrad eine Gewinnbescheinigung, die bestätigt, dass du das Fahrrad in einem Gewinnspiel gewonnen hast und jetzt der/die Eigentümer:in bist. Die Bescheinigung kannst du z.B. bei einer Versicherung als Nachweis einreichen, falls du das Fahrrad versichern möchtest."
                         ],
                         [
                             "question" => "Ich habe meinen Kassenbon verloren – was jetzt?",
-                            "answer" => "Leider kannst du ohne gültigen Bon <strong>nicht an der Aktion teilnehmen</strong>. Aber: Einfach nochmal einen Kasten oder zwei Sechserpacks Rosbacher kaufen und mit dem neuen Bon teilnehmen."
+                            "answer" => "Leider kannst du ohne gültigen Bon <strong>nicht an der Aktion teilnehmen</strong>. <strong>Aber: Einfach nochmal einen Kasten oder zwei Sechserpacks Rosbacher kaufen und mit dem neuen Bon teilnehmen.</strong>😉"
                         ],
                         [
                             "question" => "Kann ich mir den Gewinn auch auszahlen lassen?",
@@ -114,15 +114,15 @@ include('navigation_subpages.inc.php')
                         ],
                         [
                             "question" => "Ich habe keine Mail bekommen – was tun?",
-                            "answer" => "Bitte prüfe auch deinen <strong>Spam-Ordner</strong>. Die Veranstalter:innen übernehmen keine Haftung, wenn du über deine E-Mail nicht erreichbar bist."
+                            "answer" => "Bitte prüfe auch deinen <strong>Spam-Ordner</strong>. Die Veranstalterin übernimmt keine Haftung, wenn du über deine E-Mail-Adresse nicht erreichbar bist."
                         ],
                         [
                             "question" => "Wohin wird das Fahrrad geliefert?",
-                            "answer" => "Die Fahrräder werden <strong>frei Haus</strong> an eine gültige Adresse in Deutschland verschickt. Wenn der Versand scheitert, werden die Kosten für einen zweiten Zustellversuch vom Gewinner übernommen."
+                            "answer" => "Das Fahrrad wird entweder <strong>persönlich in einem der 5 Stores der Storck Bicycle GmbH in Idstein, Düsseldorf, München, Wertheim oder Hamburg</strong> übergeben oder auf Wunsch <strong>frei Haus innerhalb Deutschlands</strong> verschickt. <strong>Achtung: Laufräder müssen selbst montiert</strong> und <strong>Bremssicherungen entfernt</strong> werden – eine Anleitung liegt bei."
                         ],
                         [
                             "question" => "Was passiert, wenn ich nach der Gewinnbenachrichtigung nicht reagiere?",
-                            "answer" => "Wenn du <strong>innerhalb von 14 Tagen</strong> nach Gewinnbenachrichtigung <strong>nicht reagierst, verfällt</strong> Dein Anspruch auf den Gewinn und das Fahrrad wird neu verlost."
+                            "answer" => "Wenn du <strong>innerhalb von 14 Tagen</strong> nach Gewinnbenachrichtigung <strong>nicht reagierst, verfällt</strong> dein Anspruch auf den Gewinn und das Fahrrad wird neu verlost."
                         ]
                     ];
 

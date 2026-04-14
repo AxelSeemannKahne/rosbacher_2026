@@ -52,43 +52,43 @@
 
             <div class="col-6 col-sm-6 col-md-3">
                 <a class="js-scroll-to" href="#gewinnspiel">
-                    <img class="img-fluid mb-1 mb-sm-2" src="img/1-storck.jpg" width="744" height="756">
+                    <img class="img-fluid mb-1 mb-sm-2" src="img/1-storck.jpg" width="744" height="756" alt="Storck Gewinnspiel">
                 </a>
             </div>
 
             <div class="col-6 col-sm-6 col-md-3">
                 <a class="js-scroll-to" href="#tour_de_rosbacher">
-                    <img class="img-fluid mb-1 mb-sm-2" src="img/2_tour_rosbacher.jpg" width="744" height="756">
+                    <img class="img-fluid mb-1 mb-sm-2" src="img/2_tour_rosbacher.jpg" width="744" height="756" alt="Tour de Rosbacher">
                 </a>
             </div>
 
             <div class="col-6 col-sm-6 col-md-3">
                 <a class="js-scroll-to" href="#komoot">
-                    <img class="img-fluid mb-1 mb-sm-2" src="img/3_komoot.jpg" width="745" height="756">
+                    <img class="img-fluid mb-1 mb-sm-2" src="img/3_komoot.jpg" width="745" height="756" alt="Komoot">
                 </a>
             </div>
 
             <div class="col-6 col-sm-6 col-md-3">
                 <a class="js-scroll-to" href="#radklassiker" target="_blank">
-                    <img class="img-fluid mb-1 mb-sm-2" src="img/6_radklassiker.jpg" width="745" height="755">
+                    <img class="img-fluid mb-1 mb-sm-2" src="img/6_radklassiker.jpg" width="745" height="755" alt="Eschborn Frankfurt">
                 </a>
             </div>
 
             <div class="col-6 col-sm-6 col-md-3">
                 <a class="js-scroll-to" href="#stiftung_deutsche_sporthilfe">
-                    <img class="img-fluid mb-1 mb-sm-2" src="img/4_sporthilfe.jpg" width="745" height="755">
+                    <img class="img-fluid mb-1 mb-sm-2" src="img/4_sporthilfe.jpg" width="745" height="755" alt="Stiftung Deutsche Sporthilfe">
                 </a>
             </div>
 
             <div class="col-6 col-sm-6 col-md-3">
                 <a href="https://www.rosbacher.de/magazin/rosbacher-goes-bike" target="_blank">
-                    <img class="img-fluid mb-1 mb-sm-2" src="img/5_socialmedia.jpg" width="745" height="755">
+                    <img class="img-fluid mb-1 mb-sm-2" src="img/5_socialmedia.jpg" width="745" height="755" alt="Digitalkampagne">
                 </a>
             </div>
 
             <div class="col-6 col-sm-6 col-md-3">
-                <a href="https://www.rosbacher.de/" target="_blank">
-                    <img class="img-fluid mb-1 mb-sm-2" src="img/7_produktvielfalt.jpg" width="745" height="755">
+                <a href="https://www.rosbacher.de/sortiment" target="_blank">
+                    <img class="img-fluid mb-1 mb-sm-2" src="img/7_produktvielfalt.jpg" width="745" height="755" alt="Produktvielfalt Rosbacher">
                 </a>
             </div>
 
@@ -105,7 +105,7 @@
     <div class="container p-0 p-md-1 m-sm-auto">
 
         <div class="px-lg-3 px-xl-5 pt-0 pt-sm-2 pt-md-0">
-            <img class="img-fluid" src="img/hero.jpg" width="1140" height="658">
+            <img class="img-fluid" src="img/hero.jpg" width="1140" height="654" alt="Gewinne 1 von 11 Bikes von STORCK im Wert von je 7500 EUR">
             <div><small>Abbildungen ähnlich</small></div>
         </div>
 
@@ -121,7 +121,7 @@
 
                     <div class="col-12 col-md-3 mb-2 mb-md-0">
 
-                        <img class="img-fluid" src="img/m1.png" width="604" height="604">
+                        <img class="img-fluid" src="img/m1.png" width="604" height="604" alt="Tour de Rosbacher Logo">
 
                         <div class="text-center mt-1 small">
                             1 Kasten oder 2 Sixpacks
@@ -133,7 +133,7 @@
 
                     <div class="col-12 col-md-3 text-center mb-2 mb-md-0">
 
-                        <img class="img-fluid" src="img/m2.png" width="604" height="604">
+                        <img class="img-fluid" src="img/m2.png" width="604" height="604" alt="Abbildung Kassenbon">
 
 
                         <div class="text-center mt-1 small">
@@ -143,13 +143,13 @@
 
                     <div class="col-12 col-md-3 text-center mb-2 mb-md-0">
 
-                        <img class="img-fluid" src="img/m3.png" width="755" height="549">
+                        <img class="img-fluid" src="img/m3.png" width="755" height="549" alt="Komoot Gutschein im Wert 8.99 € garantiert" >
 
                     </div>
 
                     <div class="col-12 col-md-3 mb-2 mb-md-0">
 
-                        <img class="img-fluid" src="img/m4.png" width="604" height="604">
+                        <img class="img-fluid" src="img/m4.png" width="604" height="604" alt="Abbildung STORCK Rennrad">
 
                         <div class="text-center  mt-1 small">
                             mit etwas Glück
@@ -162,7 +162,7 @@
                 </div>
                 <div class="mt-3" style="font-size: 11px">
 
-                    *Die Aktion gilt für alle Mineralwassergebinde, auch Mineralwasser mit Geschmack. Aktionszeitraum: 01.05.–30.06.2026. Teilnahme ab 18 Jahren mit Wohnsitz in Deutschland. Mitarbeitende der Hassia
+                    *Die Aktion gilt für alle Mineralwassergebinde, auch Mineralwasser mit Geschmack („Rosbacher Lemonfresh“ ist kein Aktionsprodukt). Aktionszeitraum: 01.05.–30.06.2026. Teilnahme ab 18 Jahren mit Wohnsitz in Deutschland. Mitarbeitende der Hassia
                     Mineralquellen GmbH & Co. KG, brand on fire Werbeagentur Hamburg GmbH und CH Couponing House GmbH sind ausgeschlossen. Infos und Teilnahmebedingungen <a href="/tnb_rosbacher.php" target="_blank">hier</a>.<br><br>
 
                 </div>
@@ -179,7 +179,7 @@
                 </h3>
                 <p>
                     Werde mit etwas Glück stolzer Besitzer eines <strong>STORCK Bikes im Wert von 7.500 €!</strong>
-                    Einfach einen Kasten oder zwei Sixpacks Rosbacher Mineralwasser/Mineralwasser mit Geschmack kaufen –
+                    Einfach im Aktionszeitraum einen Kasten oder zwei Sixpacks Rosbacher Mineralwasser/Mineralwasser mit Geschmack kaufen –
                     wir drücken die Daumen!<br>
                 </p>
             </div>
@@ -196,30 +196,6 @@
             <div class="bg-white p-2">
 
                 <h3>TEILNAHME:</h3>
-
-                <div class="mb-2">
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="salutation" id="weiblich" value="Frau">
-                        <label class="form-check-label" for="weiblich">weiblich</label>
-                    </div>
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="salutation" id="maennlich" value="Herr">
-                        <label class="form-check-label" for="maennlich">männlich</label>
-                    </div>
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="salutation" id="divers" value="Divers">
-                        <label class="form-check-label" for="divers">divers</label>
-                    </div>
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="salutation" id="keineAngabe" value="">
-                        <label class="form-check-label" for="keineAngabe">keine Angabe</label>
-                    </div>
-                </div>
-
 
                 <div class="mb-2 row mandatory js-mandatory">
                     <label for="lastName" class="col-sm-4 col-lg-3 col-form-label">Name:</label>
@@ -255,15 +231,26 @@
                     <div class="error-note">Bitte lade einen Kaufbeleg hoch. Nur eine Datei kann hochgeladen werden. Folgende Formate werden akzeptiert: *.jpg, *.png, *.pdf und *.tiff</div>
                 </div>
 
-                <div class="mb-2">
+                <div class="mb-1 mandatory">
                     <div class="form-check d-flex align-items-start">
                         <input class="form-check-input" type="checkbox" id="agbCheckbox" name="agbChecked">
 
                         <label class="form-check-label text-normal cursor-pointer" for="agbCheckbox">
-                            Hiermit bestätige ich die <a href="">Teilnahmebedingungen</a> und <a href="">Datenschutzhinweise</a>.
+                            Ja, ich habe die <a href="/tnb_rosbacher.php" target="_blank">Teilnahmebedingungen</a> gelesen.
                         </label>
                     </div>
                     <div class="error-note" style="margin-left: 53px;">Bitte akzeptiere die Teilnahmebedingungen</div>
+                </div>
+
+                <div class="mb-2 mandatory">
+                    <div class="form-check d-flex align-items-start">
+                        <input class="form-check-input" type="checkbox" id="privacyCheckbox" name="privacyChecked">
+
+                        <label class="form-check-label text-normal cursor-pointer" for="privacyCheckbox">
+                            Ja, ich habe die <a href="/datenschutz.php" target="_blank">Datenschutzhinweise</a> gelesen.
+                        </label>
+                    </div>
+                    <div class="error-note" style="margin-left: 53px;">Bitte akzeptiere die Datenschutzhinweise</div>
                 </div>
 
                 <div class="mb-2">
@@ -295,15 +282,14 @@
         <div class="px-lg-3 px-xl-5">
 
             <div class="text-center">
-                <img class="mt-2 mb-1 img-fluid" style="width: 200px;" src="img/gutschein_garantiert.png" width="601" height="451">
+                <img class="mt-2 mb-1 img-fluid" style="width: 200px;" src="img/gutschein_garantiert.png" width="601" height="451" alt="Komoot Gutschein im Wert 8.99 € garantiert">
             </div>
 
 
             <p>
-                Du erhältst nach dem erfolgreichen Upload deines
-                Kassenbons einen <strong>GRATIS</strong> komoot-Gutschein im Wert
-                von 8,99 €! Mit dem Premium-Zugang und dem
-                zugesendeten Link gelangst du direkt zur <strong>Rosbacher
+                Du erhältst nach gültiger Teilnahme
+                einen <strong>GRATIS</strong> komoot-Gutschein im Wert
+                von 8,99 €! Mit dem zugesendeten Link gelangst du direkt zur <strong>Rosbacher
                 Collection</strong> – ausgewählte Touren zur Inspiration – und
                 kannst sofort an der <strong>Tour de Rosbacher</strong> teilnehmen.
                 Alternativ kannst du jederzeit mit eigenen Touren
@@ -312,7 +298,7 @@
             </p>
 
             <div>
-                <img src="img/storck_jetzt_gewinnen.png" width="1140" height="590" class="img-fluid">
+                <img src="img/storck_jetzt_gewinnen.png" width="1140" height="585" class="img-fluid" alt="Jetzt gewinnen - STORCK Fahrrad im Wert von 7.500 EUR">
             </div>
 
             <small>Abbildung ähnlich</small>
@@ -348,8 +334,8 @@
     <div class="px-lg-3 px-xl-5">
 
         <div >
-            <img src="img/tour_de_rosbacher.png" width="1140" height="268" class="img-fluid">
-            <img src="img/strecke6.png" width="1200" height="158" class="mt-2 img-fluid">
+            <img src="img/tour_de_rosbacher.png" width="1140" height="268" class="img-fluid" alt="Tour de Rosbacher">
+            <img src="img/strecke6.png" width="1200" height="158" class="mt-2 img-fluid" alt="Streckenabbildung">
         </div>
 
         <br>
@@ -367,7 +353,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-3 mb-2 mb-md-0">
                     <div class="mechanic-image-container">
-                        <img class="img-fluid px-2 px-sm-0" src="img/k1.png" width="1500" height="1500">
+                        <img class="img-fluid px-2 px-sm-0" src="img/k1.png" width="800" height="800" alt="Komoot">
                     </div>
 
                     <div class="text-center mt-1">
@@ -377,7 +363,7 @@
 
                 <div class="col-12 col-sm-6 col-md-3 mb-2 mb-md-0">
                     <div class="mechanic-image-container">
-                        <img class="img-fluid px-2 px-sm-0" src="img/k2.png" width="1500" height="1500">
+                        <img class="img-fluid px-2 px-sm-0" src="img/k2.png" width="800" height="800" alt="Rosbacher Profil auf Komoot">
                     </div>
 
                     <div class="text-center mt-1">
@@ -387,7 +373,7 @@
 
                 <div class="col-12 col-sm-6 col-md-3 mb-2 mb-md-0">
                     <div class="mechanic-image-container">
-                        <img class="img-fluid px-2 px-sm-0" src="img/k3.png" width="1500" height="1499">
+                        <img class="img-fluid px-2 px-sm-0" src="img/k3.png" width="800" height="799" alt="Rosbacher Profil folgen">
                     </div>
 
                     <div class="text-center mt-1">
@@ -397,7 +383,7 @@
 
                 <div class="col-12 col-sm-6 col-md-3 mb-2 mb-md-0">
                     <div class="mechanic-image-container">
-                        <img class="img-fluid px-2 px-sm-0" src="img/k4.png" width="1500" height="1499">
+                        <img class="img-fluid px-2 px-sm-0" src="img/k4.png" width="800" height="799" alt="Rosbacher verlinken">
                     </div>
 
                     <div class="text-center  mt-1">
@@ -409,7 +395,7 @@
 
 
             <br><br>
-            <p>Weitere Infos findest du in den <a href="tnb_tour_de_rosbacher.php" target="_blank">Teilnahmebedingungen</a>.</p>
+            <p>Aktionszeitraum: 01.05.–30.06.2026. Teilnahme ab 18 Jahren mit Wohnsitz in Deutschland. Mitarbeitende der Hassia Mineralquellen GmbH & Co. KG, brand on fire Werbeagentur Hamburg GmbH und CH Couponing House GmbH sind ausgeschlossen. Weitere Infos findest du in den <a href="tnb_tour_de_rosbacher.php" target="_blank">Teilnahmebedingungen</a>.</p>
             <strong>Radeln für einen guten Zweck!</strong><br>
             Jeder Kilometer zählt – für dich und für die Sporthilfe! Mit jedem gefahrenen Kilometer unterstützt du die
             Förderung junger Sporttalente.
@@ -451,7 +437,7 @@
             <strong>Ob Alltag oder Abenteuer – mit komoot wird jede Tour zum Erlebnis!</strong> Die App bietet dir eine einfache Routenplanung, detaillierte Karten und inspirierende Tourenvorschläge, damit du sicher dein Ziel erreichst. Millionen Outdoor-Begeisterte weltweit vertrauen bereits auf komoot, um neue Wege zu entdecken und ihre nächste große Tour zu planen. Perfekt, um gemeinsam aktiv zu sein!
         </p>
         <div>
-            <img src="img/komoot.gif" width="1140" height="575" class="img-fluid">
+            <img src="img/komoot.gif" width="1140" height="634" class="img-fluid" alt="Abbildung Komoot">
         </div>
         <br><br>
         <div class="text-center w-100">
@@ -474,7 +460,7 @@
         </p>
 
         <div>
-            <img src="img/RF25_Bild_Logo_Rosbacher.jpg?v=2" width="1140" height="641" class="img-fluid">
+            <img src="img/RF25_Bild_Logo_Rosbacher.jpg?v=2" width="1140" height="641" class="img-fluid" alt="Abbildung Eschborn-Frankfurt">
         </div>
 
         <br><br>
@@ -500,7 +486,7 @@
         <h3 style="text-transform: none;">ROSBACHER x SPORTHILFE: GEMEINSAM FÜR DEN DEUTSCHEN SPITZENSPORT!</h3>
 
         <div>
-            <img src="img/sporthilfe3_2.jpg" width="1140" height="650" class="img-fluid">
+            <img src="img/sporthilfe3_2.jpg" width="1140" height="650" class="img-fluid" alt="Abbildung Deutsche Sporthilfe">
         </div>
         <br><br>
         <div class="text-center w-100">

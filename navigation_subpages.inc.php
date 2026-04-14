@@ -1,7 +1,7 @@
 <nav id="navbar-main" class="navbar fixed-top navbar-expand-xl navbar-light bg-light shadow-sm">
     <div class="container">
 
-        <a class="navbar-brand js-scroll-to" href="#top">
+        <a class="navbar-brand" href="/index.php">
             <img src="img/rosbacher.svg" width="111" height="50" alt="Rosbacher"/>
         </a>
 
@@ -14,13 +14,13 @@
                 <div class="navbar-nav">
                     <ul class="main-nav nav">
                         <li class="has-flyout">
-                            <a class="nav-item nav-link js-scroll-to" href="#gewinnspiel">Gewinnspiel</a>
+                            <a class="nav-item nav-link" href="/#gewinnspiel">Gewinnspiel</a>
                         </li>
-                        <li><a class="nav-item nav-link js-scroll-to" href="#tour_de_rosbacher">Tour</a></li>
-                        <li><a class="nav-item nav-link js-scroll-to" href="#komoot">komoot</a></li>
-                        <li><a class="nav-item nav-link js-scroll-to" href="#stiftung_deutsche_sporthilfe">Sporthilfe</a></li>
+                        <li><a class="nav-item nav-link" href="/#tour_de_rosbacher">Tour</a></li>
+                        <li><a class="nav-item nav-link" href="/#komoot">komoot</a></li>
+                        <li><a class="nav-item nav-link" href="/#stiftung_deutsche_sporthilfe">Sporthilfe</a></li>
                         <li><a class="nav-item nav-link" target="_blank" href="https://www.rosbacher.de/magazin/rosbacher-goes-bike">Digitalkampagne</a></li>
-                        <li><a class="nav-item nav-link js-scroll-to"  href="#radklassiker">Radklassiker</a></li>
+                        <li><a class="nav-item nav-link"  href="/#radklassiker">Radklassiker</a></li>
                         <li><a class="nav-item nav-link" target="_blank" href="https://www.rosbacher.de/sortiment">Produktvielfalt</a></li>
                     </ul>
                 </div>
