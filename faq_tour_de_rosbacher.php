@@ -81,7 +81,7 @@ include('navigation_subpages.inc.php')
                             ),
                             array(
                                 "question" => "Was kann ich gewinnen?",
-                                "answer" => "Es warten gleich 3 starke Preise auf die fleißigsten Radler:innen:<br>🥇<strong>1. Platz</strong>: Ein hochwertiges <strong> Modell Aerfast.4 Red Edition Sram Red D1 AXS 1x12, Zeitjäger Laufradsatz</strong><br>🥈<strong>2. Platz</strong>: ein <strong>Storck-Gutschein im Wert von 2.000 € (brutto)</strong><br>🥉<strong>3. Platz</strong>: ein <strong>Storck-Gutschein im Wert von 1.500 € (brutto)</strong><br>Die Gewinner:innen werden nach Ende des Aktionszeitraums ermittelt."
+                                "answer" => "Es warten gleich 3 starke Preise auf die fleißigsten Radler:innen:<br>🥇<strong>1. Platz</strong>: Ein hochwertiges <strong> Modell Aerfast.4 Red Edition Sram Red D1 AXS 1x12, Zeitjäger Laufradsatz</strong><br>🥈<strong>2. Platz</strong>: Ein <strong>Storck-Gutschein im Wert von 2.000 € (brutto)</strong><br>🥉<strong>3. Platz</strong>: Ein <strong>Storck-Gutschein im Wert von 1.500 € (brutto)</strong><br>Die Gewinner:innen werden nach Ende des Aktionszeitraums ermittelt."
                             ),
                             array(
                                 "question" => "Was passiert bei einem Gleichstand?",
