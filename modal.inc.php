@@ -16,19 +16,15 @@
                 </div>
 
                 <div class="opt_out_consent" style="display: block">
-
                     <div id="matomo-opt-out"></div>
-                    <script src="https://rosbacheraktion.matomo.cloud/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=auto&showIntro=1"></script>
-
+                    <script src="https://piwik2.yum.de/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=auto&showIntro=1"></script>
                 </div>
 
                 <script>
                     var _paq = window._paq = window._paq || [];
 
-                    /* Erforderliche Zustimmung, um Tracking zu verhindern */
                     _paq.push(['requireCookieConsent']);
 
-                    /* Funktion, um zu prüfen, ob ein Cookie mit einem bestimmten Namen existiert */
                     function checkCookie(name) {
                         return document.cookie.split('; ').some(cookie => cookie.startsWith(name + '='));
                     }
@@ -36,10 +32,17 @@
                     var initialConsentGiven = checkCookie('mtm_cookie_consent');
                     var consentRemoved = checkCookie('mtm_consent_removed');
 
-                    /* tracker methods ... */
                     _paq.push(['trackPageView']);
                     _paq.push(['enableLinkTracking']);
-                    (function() { /* Matomo Tracking Code */ })();
+
+                    (function() {
+                        /* NEU: Tracking Code für die neue Instanz */
+                        var u="https://piwik2.yum.de/";
+                        _paq.push(['setTrackerUrl', u+'matomo.php']);
+                        _paq.push(['setSiteId', '45']);
+                        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+                    })();
                 </script>
 
                 <script>
@@ -48,7 +51,7 @@
                         const optOutConsentDiv = document.querySelector('.opt_out_consent');
                         const consentButton = document.getElementById('consent-button');
                         const consentStatus = document.getElementById('consent-status');
-                        const optOutCheckbox = document.querySelector('.opt_out_consent #matomo-opt-out input[type="checkbox"]');
+                        // Fix: Wir suchen die Checkbox im geladenen Matomo-Iframe/Div
 
                         function showInitialConsent() {
                             initialConsentDiv.style.display = 'block';
@@ -60,24 +63,21 @@
                         function showOptOutConsent() {
                             initialConsentDiv.style.display = 'none';
                             optOutConsentDiv.style.display = 'block';
-                            consentStatus.style.display = 'block'; // Zeige "Tracking aktiviert" (impliziert vorherige Zustimmung)
-                            consentButton.textContent = 'Zustimmung widerrufen'; // Ändere Button-Text
-                            if (optOutCheckbox) {
-                                optOutCheckbox.checked = true; // Opt-out Checkbox aktivieren
-                            }
+                            consentStatus.style.display = 'block';
+                            consentButton.textContent = 'Zustimmung widerrufen';
+                            const optOutCheckbox = document.querySelector('#matomo-opt-out input[type="checkbox"]');
+                            if (optOutCheckbox) { optOutCheckbox.checked = true; }
                         }
 
                         function showOptedOutState() {
                             initialConsentDiv.style.display = 'none';
                             optOutConsentDiv.style.display = 'block';
-                            consentStatus.style.display = 'none'; // Kein "Tracking aktiviert" anzeigen
-                            consentButton.textContent = 'Zustimmung geben'; // Button zum Reaktivieren
-                            if (optOutCheckbox) {
-                                optOutCheckbox.checked = false; // Opt-out Checkbox deaktivieren
-                            }
+                            consentStatus.style.display = 'none';
+                            consentButton.textContent = 'Zustimmung geben';
+                            const optOutCheckbox = document.querySelector('#matomo-opt-out input[type="checkbox"]');
+                            if (optOutCheckbox) { optOutCheckbox.checked = false; }
                         }
 
-                        // Initialen Zustand beim Laden der Seite prüfen
                         if (consentRemoved) {
                             showOptedOutState();
                         } else if (initialConsentGiven) {
@@ -86,23 +86,13 @@
                             showInitialConsent();
                         }
 
-                        // Event-Listener für den Button im initialen Consent-Bereich (Zustimmung geben)
                         if (consentButton) {
                             consentButton.addEventListener('click', function() {
-                                _paq.push(['rememberCookieConsentGiven']);
-                                showOptOutConsent(); // UI nach Zustimmung aktualisieren
-                            });
-                        }
-
-                        // Event-Listener für die Opt-out Checkbox
-                        if (optOutCheckbox) {
-                            optOutCheckbox.addEventListener('change', function() {
-                                if (this.checked) {
-                                    // Nutzer möchte Tracking deaktivieren (Opt-out)
+                                // Wenn wir im "Widerrufen" Status sind:
+                                if (consentButton.textContent === 'Zustimmung widerrufen') {
                                     _paq.push(['forgetCookieConsentGiven']);
                                     showOptedOutState();
                                 } else {
-                                    // Nutzer möchte Tracking aktivieren (Opt-in nach vorherigem Opt-out)
                                     _paq.push(['rememberCookieConsentGiven']);
                                     showOptOutConsent();
                                 }
@@ -110,17 +100,12 @@
                         }
                     });
                 </script>
-
-                <div id="matomo-opt-out"></div>
-                <script src="https://rosbacheraktion.matomo.cloud/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=auto&showIntro=1"></script>
-
             </div>
             <div class="modal-footer">
                 <div class="row w-100">
                     <div class="col-6">
                         <a class="text-black text-decoration-underline" href="/datenschutz.php">Datenschutz</a>
                     </div>
-
                     <div class="col-6 text-right">
                         <a class="text-black text-decoration-underline" href="/impressum.php" >Impressum</a>
                     </div>

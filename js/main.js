@@ -34,8 +34,8 @@ $( document ).ready(function() {
             scrollToSection('#' + anchorId);
         }, 50); // Etwas längere Verzögerung hier könnte sicherer sein
 
-
     }
+
     function scrollToSection(sElement){
         element = $(sElement);
         $('html, body').animate({

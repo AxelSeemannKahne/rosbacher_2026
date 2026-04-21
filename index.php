@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Europe/Berlin');
 
-$sDateStart = strtotime("01.05.2026 08:00:00");
-$sDateEnd = strtotime("31.05.2026 23:59:59");
+$sDateStart = strtotime("01.05.2026 00:00:00");
+$sDateEnd = strtotime("30.06.2026 23:59:59");
 $sNow = ($_GET['showdate']) ? strtotime($_GET['showdate']) : time();
 $sShowButtons = ($_GET['showbuttons']) ? true : false;
 
@@ -41,13 +41,11 @@ if ($sNow < $sDateStart) {
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/form.min.js"></script>
 
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/site/themes/rosbacher/img/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon-precomposed" sizes="167x167" href="/site/themes/rosbacher/img/favicon/apple-touch-icon-167x167.png">
-    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/site/themes/rosbacher/img/favicon/apple-touch-icon-180x180.png">
-    <link rel="icon" sizes="180x180" href="/site/themes/rosbacher/img/favicon/apple-touch-icon-180x180.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/site/themes/rosbacher/img/favicon/favicon.ico">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 
 </head>
@@ -220,77 +218,85 @@ if ($sNow < $sDateStart) {
 
                 <?php if ($iProjectPhase == 1): ?>
 
-                    <h3>TEILNAHME:</h3>
 
-                    <div class="mb-2 row mandatory js-mandatory">
-                        <label for="lastName" class="col-sm-4 col-lg-3 col-form-label">Name:</label>
-                        <div class="col-sm-8 col-lg-9">
-                            <input class="form-control" name="lastName" id="lastName" type="text" value="">
-                            <div class="error-note">Bitte gib deinen Nachnamen an</div>
-                        </div>
-                    </div>
+                    <form id="form">
 
-                    <div class="mb-2 row mandatory js-mandatory">
-                        <label for="firstName" class="col-sm-4 col-lg-3 col-form-label">Vorname:</label>
-                        <div class="col-sm-8 col-lg-9">
-                            <input class="form-control" name="firstName" id="firstName" type="text" value="">
-                            <div class="error-note">Bitte gib deinen Vornamen an</div>
-                        </div>
-                    </div>
+                        <h3>TEILNAHME:</h3>
 
-                    <div class="mb-2 row mandatory js-mandatory">
-                        <label for="email" class="col-sm-4 col-lg-3 col-form-label">E-Mail:</label>
-                        <div class="col-sm-8 col-lg-9">
-                            <input class="form-control" id="email" name="email" type="email" value="">
-                            <div class="error-note">Bitte gib deine E-Mail-Adresse an</div>
-                            <div class="email-error-note">Bitte gib deine E-Mail-Adresse im korrekten Format an</div>
-                        </div>
-                    </div>
-
-
-                    <div class="mb-1 mandatory js-mandatory ">
-                        <label class="form-label btn-textmarker textmarker-red" for="receiptImage">Lade hier deinen Kassenbon hoch (max.10MB)</label>
-                    </div>
-                    <div class="mb-2 d-flex justify-content-center">
-                        <input type="file" class="form-control-file" id="receiptImage" name="receiptImage"  value="">
-                        <div class="error-note">Bitte lade einen Kaufbeleg hoch. Nur eine Datei kann hochgeladen werden. Folgende Formate werden akzeptiert: *.jpg, *.png, *.pdf und *.tiff</div>
-                    </div>
-
-                    <div class="mb-1 mandatory">
-                        <div class="form-check d-flex align-items-start">
-                            <input class="form-check-input" type="checkbox" id="agbCheckbox" name="agbChecked">
-
-                            <label class="form-check-label text-normal cursor-pointer" for="agbCheckbox">
-                                Ja, ich habe die <a href="/tnb_rosbacher.php" target="_blank">Teilnahmebedingungen</a> gelesen.
-                            </label>
-                        </div>
-                        <div class="error-note" style="margin-left: 53px;">Bitte akzeptiere die Teilnahmebedingungen</div>
-                    </div>
-
-                    <div class="mb-2 mandatory">
-                        <div class="form-check d-flex align-items-start">
-                            <input class="form-check-input" type="checkbox" id="privacyCheckbox" name="privacyChecked">
-
-                            <label class="form-check-label text-normal cursor-pointer" for="privacyCheckbox">
-                                Ja, ich habe die <a href="/datenschutz.php" target="_blank">Datenschutzhinweise</a> gelesen.
-                            </label>
-                        </div>
-                        <div class="error-note" style="margin-left: 53px;">Bitte akzeptiere die Datenschutzhinweise</div>
-                    </div>
-
-                    <div class="mb-2">
-                        <div class="col-12">
-                            <div id="mainErrorNote" class="alert alert-danger mt-2" style="display:none">Bitte fülle alle Pflichtfelder aus</div>
-                        </div>
-                    </div>
-
-                    <div id="submitButtonContainer">
-                        <div class="col-12">
-                            <div class="d-flex justify-content-center">
-                                <div id="submitButton" class="js-upload-action btn btn-primary">LOS GEHT'S <span id="submitSpinner" class="d-none ml-1 spinner-border spinner-border-sm"></span></div>
+                        <div class="mb-2 row mandatory js-mandatory">
+                            <label for="lastName" class="col-sm-4 col-lg-3 col-form-label">Name:</label>
+                            <div class="col-sm-8 col-lg-9">
+                                <input class="form-control" name="lastName" id="lastName" type="text" value="">
+                                <div class="error-note">Bitte gib deinen Nachnamen an</div>
                             </div>
                         </div>
-                    </div>
+
+                        <div class="mb-2 row mandatory js-mandatory">
+                            <label for="firstName" class="col-sm-4 col-lg-3 col-form-label">Vorname:</label>
+                            <div class="col-sm-8 col-lg-9">
+                                <input class="form-control" name="firstName" id="firstName" type="text" value="">
+                                <div class="error-note">Bitte gib deinen Vornamen an</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-2 row mandatory js-mandatory">
+                            <label for="email" class="col-sm-4 col-lg-3 col-form-label">E-Mail:</label>
+                            <div class="col-sm-8 col-lg-9">
+                                <input class="form-control" id="email" name="email" type="email" value="">
+                                <div class="error-note">Bitte gib deine E-Mail-Adresse an</div>
+                                <div class="email-error-note">Bitte gib deine E-Mail-Adresse im korrekten Format an</div>
+                            </div>
+                        </div>
+
+
+                        <div class="mb-1 mandatory js-mandatory ">
+                            <label class="form-label btn-textmarker textmarker-red" for="receiptImage">Lade hier deinen Kassenbon hoch (max.10MB)</label>
+                        </div>
+                        <div class="mb-1 d-flex justify-content-center">
+                            <input type="file" class="form-control-file" id="receiptImage" name="receiptImage"  value="">
+                        </div>
+                        <div id="receiptImageErrorNote" class="error-note mb-2">Bitte lade einen Kaufbeleg hoch. Nur eine Datei kann hochgeladen werden.<br>Folgende Formate werden akzeptiert: *.jpg, *.png, *.gif, *.pdf, .bmp und *.tiff</div>
+
+
+                        <div class="mb-1 mandatory js-mandatory">
+                            <div class="form-check d-flex align-items-start">
+                                <input class="form-check-input" type="checkbox" id="agbCheckbox" name="agbChecked">
+
+                                <label class="form-check-label text-normal cursor-pointer" for="agbCheckbox">
+                                    Ja, ich habe die <a href="/tnb_rosbacher.php" target="_blank">Teilnahmebedingungen</a> gelesen.
+                                </label>
+                            </div>
+                            <div class="error-note" >Bitte akzeptiere die Teilnahmebedingungen</div>
+                        </div>
+
+                        <div class="mb-2 mandatory js-mandatory">
+                            <div class="form-check d-flex align-items-start">
+                                <input class="form-check-input" type="checkbox" id="privacyCheckbox" name="privacyChecked">
+
+                                <label class="form-check-label text-normal cursor-pointer" for="privacyCheckbox">
+                                    Ja, ich habe die <a href="/datenschutz.php" target="_blank">Datenschutzhinweise</a> gelesen.
+                                </label>
+                            </div>
+                            <div class="error-note">Bitte akzeptiere die Datenschutzhinweise</div>
+                        </div>
+
+                        <div class="mb-2">
+                            <div id="mainErrorNote" class="alert alert-danger mt-2" style="display:none"></div>
+                        </div>
+
+                        <div class="mb-2">
+                            <div id="successNote" class="alert alert-success mt-2" style="display:none"></div>
+                        </div>
+
+                        <div id="submitButtonContainer">
+                            <div class="col-12">
+                                <div class="d-flex justify-content-center">
+                                    <div id="submitButton" class="js-upload-action btn btn-primary">LOS GEHT'S <span id="submitSpinner" class="d-none ml-1 spinner-border spinner-border-sm"></span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
 
                 <?php endif; ?>
 
@@ -368,7 +374,7 @@ if ($sNow < $sDateStart) {
 
         <div >
             <img src="img/tour_de_rosbacher.png" width="1140" height="268" class="img-fluid" alt="Tour de Rosbacher">
-            <img src="img/strecke6.png" width="1200" height="158" class="mt-2 img-fluid" alt="Streckenabbildung">
+            <img src="img/strecke.png" width="1200" height="158" class="mt-2 img-fluid" alt="Streckenabbildung">
         </div>
 
         <br>
