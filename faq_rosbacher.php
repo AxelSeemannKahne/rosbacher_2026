@@ -117,8 +117,8 @@ include('navigation_subpages.inc.php')
                             "answer" => "Bitte prüfe auch deinen <strong>Spam-Ordner</strong>. Die Veranstalterin übernimmt keine Haftung, wenn du über deine E-Mail-Adresse nicht erreichbar bist."
                         ],
                         [
-                            "question" => "Wohin wird das Fahrrad geliefert?",
-                            "answer" => "Das Fahrrad wird entweder <strong>persönlich in einem der 5 Stores der Storck Bicycle GmbH in Idstein, Düsseldorf, München, Wertheim oder Hamburg</strong> übergeben oder auf Wunsch <strong>frei Haus innerhalb Deutschlands</strong> verschickt. <strong>Achtung: Laufräder müssen selbst montiert</strong> und <strong>Bremssicherungen entfernt</strong> werden – eine Anleitung liegt bei."
+                            "question" => "Wie bekomme ich mein Fahrrad?",
+                            "answer" => "Die Übergabe deines Fahrrads erfolgt entweder im Rahmen eines Gewinner-Events im STORCK Store in <strong>Idstein</strong>, durch persönliche Abholung in einem der STORCK Stores in <strong>Idstein, Düsseldorf, München, Wertheim oder Hamburg</strong> oder auf Wunsch per Versand <strong>frei Haus innerhalb Deutschlands</strong>. <strong>Achtung:</strong> Bei Versand müssen die Laufräder selbst montiert und Bremssicherungen entfernt werden – eine Anleitung liegt bei."
                         ],
                         [
                             "question" => "Was passiert, wenn ich nach der Gewinnbenachrichtigung nicht reagiere?",

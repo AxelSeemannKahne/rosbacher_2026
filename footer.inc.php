@@ -40,6 +40,7 @@
                         <li><a href="/faq_rosbacher.php">FAQ Rosbacher BIKE Promotion</a></li>
                         <li><a href="/tnb_tour_de_rosbacher.php">Teilnahmebedingungen Tour de Rosbacher</a></li>
                         <li><a href="/faq_tour_de_rosbacher.php">FAQ Tour de Rosbacher</a></li>
+                        <li><a href="/einwilligungserklaerung_tour_de_rosbacher.php">Einwilligungserklärung Tour de Rosbacher</a></li>
                     </ul>
                 </div>
             </div>

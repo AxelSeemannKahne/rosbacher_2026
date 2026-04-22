@@ -42,7 +42,7 @@ if ($sNow < $sDateStart) {
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/main.min.js"></script>
-    <script src="js/form.min.js"></script>
+    <script src="js/form.min.js?v=2"></script>
 
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">

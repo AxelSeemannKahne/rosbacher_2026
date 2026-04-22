@@ -166,6 +166,85 @@ include('navigation_subpages.inc.php')
                 </div>
 
 
+
+
+                <div class="col-12 mt-4">
+
+                    <h3>DATENSCHUTZHINWEISE TOUR DE ROSBACHER<br>INFORMATION ZUM DATENSCHUTZ NACH ART. 14 DSGVO</h3>
+
+                    <p>
+                        Die Einhaltung datenschutzrechtlicher Vorgaben hat einen hohen Stellenwert für uns. Wir sind verpflichtet, Sie über die Verarbeitung, d.h. Erhebung, Speicherung und Nutzung, Ihrer, im Rahmen des Gewinnspiels zur „Tour de Rosbacher“ verarbeiteten, personenbezogenen Daten bei uns aufzuklären.
+                    </p>
+
+                    <strong>1. Name und Kontaktdaten des Verantwortlichen</strong><br><br>
+                    <strong>Hassia Mineralquellen GmbH & Co. KG</strong><br>
+                    Gießener Str. 18-30<br>
+                    61118 Bad Vilbel<br>
+                    Tel.: +49 (0) 6101 / 403 0<br>
+                    Email: <a href="mailto:info@hassia.com">info@hassia.com</a><br><br>
+
+                    <strong>Name und Kontaktdaten unseres Datenschutzbeauftragten</strong><br><br>
+                    <strong>RPA Datenschutz + Compliance GmbH</strong><br>
+                    Hauser Gasse 19 b<br>
+                    35575 Wetzlar<br>
+                    E-Mail: <a href="mailto:datenschutz.hassia@hassia-gruppe.com">datenschutz.hassia@hassia-gruppe.com</a><br><br>
+
+                    <strong>2. Kategorien der personenbezogenen Daten, die verarbeitet werden</strong><br><br>
+                    Ausschließlich von den drei Gewinner:innen verarbeiten wir folgende personenbezogenen Daten:<br><br>
+                    <ul>
+                        <li>Vor- und Nachname</li>
+                        <li>E-Mail-Adresse</li>
+                        <li>Gewinn</li>
+                    </ul>
+                    Daten der Teilnehmer:innen, die nicht zu den Gewinner:innen gehören, erhalten wir nicht.<br><br>
+
+                    <strong>3. Quelle der personenbezogenen Daten</strong><br><br>
+                    Wir haben Ihre personenbezogenen Daten von der komoot GmbH, Kienberger Allee 4, 12529 Schönefeld, erhalten, der gegenüber Sie in die Weitergabe der personenbezogenen Daten bei Teilnahme am Gewinnspiel eingewilligt haben.<br><br>
+
+                    <strong>4. Zwecke und Rechtsgrundlagen der Verarbeitung</strong><br><br>
+                    Wir verarbeiten Ihre personenbezogenen Daten zum Zweck der Kontaktaufnahme für die Promotion-Aktion, innerhalb derer die Gewinne der Bike Promotion 2026 und der Tour de Rosbacher an die Gewinner:innen persönlich übergeben werden sollen. Rechtsgrundlage ist Art. 6 Abs. 1 a) DSGVO, Ihre Einwilligung in die Weitergabe und Verarbeitung.<br><br>
+
+                    <strong>5. Bezeichnung der Verarbeitungstätigkeit; Verpflichtung zur Bereitstellung und Folgen der Nichtbereitstellung</strong><br><br>
+                    Diese Informationen zum Datenschutz erfolgen im Zusammenhang mit der von uns durchgeführten Aktion „Tour de Rosbacher“ und Ihrer Einwilligung in die Datenweitergabe und Kontaktaufnahme. Wir benötigen die personenbezogenen Daten, um Sie als Gewinner:in einer der drei im Rahmen der Aktion „Tour de Rosbacher“ vergebenen Gewinne zu kontaktieren und über die Promotion-Aktion zwecks persönlicher Übergabe der Gewinne in Idstein zu informieren. Werden die Daten nicht an uns weitergegeben, können wir Sie nicht über die Promotion-Aktion informieren und Sie können nicht hieran teilnehmen.<br><br>
+
+                    <strong>6. Empfänger der personenbezogenen Daten</strong><br><br>
+                    Die im Rahmen der Aktion „Tour de Rosbacher“ verarbeiteten personenbezogenen Daten der drei Gewinner:innen werden von uns nicht an Dritte weitergegeben.<br><br>
+
+                    <strong>7. Übermittlung von personenbezogenen Daten in ein Drittland</strong><br><br>
+                    Es ist nicht geplant, Ihre personenbezogenen Daten in ein Drittland zu übermitteln.<br><br>
+
+                    <strong>8. Dauer der Speicherung</strong><br><br>
+                    Die personenbezogenen Daten der drei Gewinner:innen werden von uns 60 Tage nach Stattfinden der Promotion-Aktion gelöscht. Sollte es – aus welchen Gründen auch immer – nicht zu einer Promotion-Aktion kommen, werden die Daten unverzüglich nach Entscheidung über das Nichtstattfinden/die Absage gelöscht. Sollte ein/e Gewinner:in nicht an der Promotion-Aktion teilnehmen können oder wollen, werden die jeweiligen personenbezogenen Daten unverzüglich nach Erhalt der Absage gelöscht.<br><br>
+
+                    <strong>9. Widerrufsrecht bei Einwilligung</strong><br><br>
+                    Da Sie in die Verarbeitung der personenbezogenen Daten durch uns eingewilligt haben, können Sie die Einwilligung jederzeit und ohne Angabe von Gründen für die Zukunft widerrufen. Die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Datenverarbeitung wird durch diesen nicht berührt. Der Widerruf ist zu richten an: <a href="mailto:datenschutz.hassia@hassia-gruppe.com">datenschutz.hassia@hassia-gruppe.com</a><br><br>
+
+                    <strong>10. Betroffenenrechte</strong><br><br>
+                    Ihnen stehen als Betroffenem nachfolgende Betroffenenrechte zu:<br><br>
+
+                    <i>Auskunft, Art. 15 DSGVO</i><br>
+                    Sie können Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten sowie die Art der Verarbeitung verlangen. Es gelten die Einschränkungen nach §§ 34, 35 BDSG.<br><br>
+
+                    <i>Berichtigung, Art. 16 DSGVO</i><br>
+                    Sollten Ihre Angaben nicht (mehr) zutreffend sein, können Sie die Berichtigung Ihrer Daten verlangen. Sollten Ihre Daten unvollständig sein, können Sie eine Vervollständigung verlangen.<br><br>
+
+                    <i>Löschung, Art. 17 DSGVO</i><br>
+                    Sie haben das Recht, die Löschung Ihrer Daten zu verlangen. Bitte beachten Sie, dass ein Anspruch auf Löschung von dem Vorliegen eines legitimen Grunds abhängt. Zudem dürfen keine Vorschriften bestehen, die uns zur Aufbewahrung Ihrer Daten verpflichten. Es gelten die Einschränkungen nach §§ 34, 35 BDSG.<br><br>
+
+                    <i>Einschränkung der Verarbeitung, Art. 18 DSGVO</i><br>
+                    Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer Daten zu verlangen. Bitte beachten Sie, dass ein Anspruch auf Einschränkung der Verarbeitung von dem Vorliegen eines legitimen Grunds abhängt.<br><br>
+
+                    <i>Beschwerderecht, Art. 77 DSGVO</i><br>
+                    Sie sind berechtigt, bei der zuständigen Datenschutzaufsichtsbehörde Beschwerde einzureichen. Die zuständige Datenschutzaufsichtsbehörde ist der Landesdatenschutzbeauftragte des Bundeslandes, in dem Sie Ihren Wohnsitz haben.<br><br>
+
+                    <i>Datenübertragbarkeit, Art. 20 DSGVO</i><br>
+                    Sie haben das Recht, personenbezogene Daten, die Sie uns mitgeteilt haben, in einem elektronischen Format zu erhalten.<br><br>
+
+                    <p>Stand 30.01.2026</p>
+                </div>
+
+
+
             </div>
 
         </div>

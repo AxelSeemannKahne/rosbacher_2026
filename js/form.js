@@ -115,6 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 successNote.innerHTML = "Deine Teilnahme war erfolgreich. Wir drücken dir die Daumen!";
                 successNote.style.display = '';
                 successNote.style.display = '';
+                submitButton.remove();
             } else {
                 if (data.errors) {
                     showValidationErrors(data.errors);
