@@ -66,7 +66,7 @@ include('navigation_subpages.inc.php')
                     </p>
 
                     <p>
-                        Darüber hinaus willige ich darin ein, dass komoot im Gewinnfall meinen Vor- und Nachnamen, meine E-Mail-Adresse und die Information über den von mir gewonnenen Gewinn an die Hassia Mineralquellen GmbH & Co. KG, Gießener Str. 18-30, 61113 Bad Vilbel („Hassia“), weitergeben darf, damit Hassia mich für eine Promotion-Aktion im Rahmen des Gewinnspiels und für meinen Gewinn kontaktieren kann. Weitere Informationen zur möglichen Promotion-Aktion finden sich in den <a href="/tnb_tour_de_rosbacher.php">Teilnahmebedingungen</a>, zum Datenschutz in der Information nach Art. 13, 14 DSGVO.
+                        Darüber hinaus willige ich darin ein, dass komoot im Gewinnfall meinen Vor- und Nachnamen, meine E-Mail-Adresse und die Information über den von mir gewonnenen Gewinn an die Hassia Mineralquellen GmbH & Co. KG, Gießener Str. 18-30, 61113 Bad Vilbel („Hassia“), weitergeben darf, damit Hassia mich für eine Promotion-Aktion im Rahmen des Gewinnspiels und für meinen Gewinn kontaktieren kann. Weitere Informationen zur möglichen Promotion-Aktion finden sich in den <a href="/tnb_tour_de_rosbacher.php">Teilnahmebedingungen</a> sowie in den <a href="/datenschutz.php">Datenschutzhinweisen</a>.
                     </p>
 
                     <p>
