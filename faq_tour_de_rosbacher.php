@@ -93,8 +93,7 @@ include('navigation_subpages.inc.php')
                             ),
                             array(
                                     "question" => "Wie bekomme ich mein Fahrrad?",
-                                    "answer" => "Die Übergabe deines Fahrrads erfolgt entweder im Rahmen eines Gewinner-Events im STORCK Store in <strong>Idstein</strong>, durch persönliche Abholung in einem der STORCK Stores in <strong>Idstein, Düsseldorf, München, Wertheim oder Hamburg</strong> oder auf Wunsch per Versand <strong>frei Haus innerhalb Deutschlands</strong>. <strong>Achtung:</strong> Bei Versand müssen die Laufräder selbst montiert und Bremssicherungen entfernt werden – eine Anleitung liegt bei."
-                            ),
+                                    "answer" => "Die Übergabe deines Fahrrads erfolgt entweder im Rahmen eines Gewinner-Events im STORCK Store in Idstein oder auf Wunsch per Versand frei Haus innerhalb Deutschlands. <strong>Achtung: Bei Versand müssen die Laufräder selbst montiert und Bremssicherungen entfernt werden – eine Anleitung liegt bei.</strong>"                            ),
                             array(
                                 "question" => "Falls ich ein Bike gewonnen habe: Wie lange dauert es, bis ich es geliefert bekomme?",
                                 "answer" => "Die Fahrräder werden individuell für die Gewinner:innen angefertigt. Die Produktionsdauer beträgt in der Regel <strong>zwischen 8 und 12 Wochen</strong>. Du wirst per E-Mail benachrichtigt, sobald dein Fahrrad fertiggestellt ist. Sollte es zu Verzögerungen kommen, erhältst du ebenfalls eine Benachrichtigung per E-Mail."

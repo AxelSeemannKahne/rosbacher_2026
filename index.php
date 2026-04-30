@@ -42,7 +42,7 @@ if ($sNow < $sDateStart) {
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/main.min.js"></script>
-    <script src="js/form.min.js?v=2"></script>
+    <script src="js/form.min.js?v=4"></script>
 
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -263,7 +263,7 @@ if ($sNow < $sDateStart) {
                                 <input class="form-check-input" type="checkbox" id="agbCheckbox" name="agbChecked">
 
                                 <label class="form-check-label text-normal cursor-pointer" for="agbCheckbox">
-                                    Ja, ich habe die <a href="/tnb_rosbacher.php" target="_blank">Teilnahmebedingungen</a> gelesen.
+                                    Ja, ich habe die <a href="/tnb_rosbacher.php" target="_blank">Teilnahmebedingungen</a> gelesen und akzeptiere diese.
                                 </label>
                             </div>
                             <div class="error-note" >Bitte akzeptiere die Teilnahmebedingungen</div>

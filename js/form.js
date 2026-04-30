@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const successNote = document.getElementById('successNote');
     const submitSpinner = document.getElementById('submitSpinner');
 
+    // Konstante für die maximale Dateigröße (10 MB in Bytes)
+    const MAX_FILE_SIZE = 10 * 1024 * 1024;
 
     if (!form || !submitButton || !mainErrorNote || !submitSpinner) {
         console.error('Eines oder mehrere der benötigten DOM-Elemente wurden nicht gefunden.');
@@ -50,11 +52,26 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const receiptImageInput = document.getElementById('receiptImage');
+
         if (receiptImageInput && (!receiptImageInput.files || receiptImageInput.files.length === 0)) {
             isValid = false;
             const errorDiv = document.getElementById("receiptImageErrorNote");
-            if (errorDiv) errorDiv.style.display = 'block';
+            if (errorDiv) {
+                errorDiv.textContent = "Bitte lade einen Kassenbon hoch.";
+                errorDiv.style.display = 'block';
+            }
+        } else if (receiptImageInput.files[0].size > MAX_FILE_SIZE) {
+
+            isValid = false;
+            const errorDiv = document.getElementById("receiptImageErrorNote");
+            if (errorDiv) {
+                errorDiv.textContent = "Datei überschreitet maximale Größe von 10MB (Fehlercode: E003)";
+                errorDiv.style.display = 'block';
+            }
+            showErrorMessage('Datei überschreitet maximale Größe von 10MB (Fehlercode: E003)');
         }
+
+
 
         const agbCheckbox = document.getElementById('agbCheckbox');
         if (agbCheckbox && !agbCheckbox.checked) {
@@ -90,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
         submitButton.style.pointerEvents = 'none';
 
         try {
-            const response = await fetch('https://rosbacher-bike-promo-2026.ch.codamic.ag/api/verifyWin.php', {
+            const response = await fetch('https://www.rosbacher-gewinnspiel.de/api/verifyWin.php', {
                 method: 'POST',
                 body: formData
             });
@@ -102,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else if (errorData && errorData.errors) {
                     showValidationErrors(errorData.errors);
                 } else if (response.status === 413) {
-                    showErrorMessage('Die hochgeladene Datei ist zu groß (max. 5 MB erlaubt).');
+                    showErrorMessage('Datei überschreitet maximale Größe von 10MB (Fehlercode: E003)!');
                 } else {
                     showErrorMessage(`HTTP-Fehler: ${response.status} ${response.statusText}`);
                 }
